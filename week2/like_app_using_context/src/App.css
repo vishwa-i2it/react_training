@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+}
+.main-card {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parent-container {
+  height: 80%;
+  width: 80%;
+  padding: 2.5rem;
+  border-left: 0.75rem greenyellow solid;
+  border-radius: 1rem;
+  background-color: whitesmoke;
+}
+
+.parent-box {
+  height: 50%;
+}
+
+.content-div {
+  height: 90%;
+  align-items: center;
+  display: flex;
+}
+
+.child-box {
+  height: 45%;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  border-left: 0.75rem lightcoral solid;
+  padding: 1rem;
+  background-color: antiquewhite;
+  border-radius: 1rem;
+}
+
+.article-div {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.article {
+  height: 80%;
+  width: 30%;
+  border: 1px solid brown;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.button-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.like-button {
+  color: white;
+  background-color: green;
+  border: 0;
+  border-radius: 1rem;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+}

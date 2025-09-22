@@ -1,0 +1,52 @@
+.header-div,
+.footer-div {
+  height: 10vh;
+  background-color: aliceblue;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+.body-div {
+  height: 80vh;
+  display: flex;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+}
+
+.logo,
+.profile-icon {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.tree-div, .tree-details-div {
+  height: 100%;
+  width: 33.33%;
+}
+
+.pointer-cursor {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
