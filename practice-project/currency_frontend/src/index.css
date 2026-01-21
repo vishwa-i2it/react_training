@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+:root {
+  background-color: #AAAAAA;
+}
+
+body {
+  place-items: center;
+}
